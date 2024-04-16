@@ -6,25 +6,19 @@ export default function About() {
     <>
       <div className='mx-auto max-w-screen-lg md:w-full md:max-w-4xl'>
         <article className='pt-28 text-5xl font-bold text-center'>
-          <h1 className='text-white'>Sobre nuestro Equipo</h1>
+          <span className='text-white'>Sobre nuestro Equipo</span>
         </article>
-        <article className='text-2xl flex justify-center py-7 md:px-10 md:max-w-4xl text-white'>
-          Somos un quipo de desarrolladores trabajando en estrecha colaboración
-          para crear una aplicación innovadora y funcional. Con habilidades
-          especializadas en diferentes áreas, como diseño de interfaz de
-          usuario, desarrollo frontend y backend, así como gestión de bases de
-          datos, el equipo combina sus fortalezas para lograr un producto final
-          de alta calidad.
-        </article>
-
-        {/* <div className='grid mb-8 border border-gray-200 rounded-lg shadow-sm dark:border-gray-700 md:mb-12 md:grid-cols-2 bg-white dark:bg-gray-800'>
+        <div className='grid mb-8 border border-gray-200 rounded-lg shadow-sm dark:border-gray-700 md:mb-12 md:grid-cols-2 bg-white dark:bg-gray-800'>
           <figure className='flex flex-col items-center justify-center p-8 text-center bg-white border-b border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-ss-lg md:border-e dark:bg-gray-800 dark:border-gray-700'>
             <blockquote className='max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400'>
               <h3 className='text-lg font-semibold text-gray-900 dark:text-white'>
-                Very easy this was to integrate
+                Desarrolladores Frontend
               </h3>
               <p className='my-4'>
-                If you care for your time, I hands down would go with this."
+                Experto en crear interfaces de usuario atractivas y funcionales.
+                Trabaja en estrecha colaboración con diseñadores y
+                desarrolladores backend para implementar la lógica de frontend y
+                garantizar una experiencia de usuario fluida.
               </p>
             </blockquote>
             <figcaption className='flex items-center justify-center '>
@@ -44,11 +38,13 @@ export default function About() {
           <figure className='flex flex-col items-center justify-center p-8 text-center bg-white border-b border-gray-200 md:rounded-se-lg dark:bg-gray-800 dark:border-gray-700'>
             <blockquote className='max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400'>
               <h3 className='text-lg font-semibold text-gray-900 dark:text-white'>
-                Solid foundation for any project
+                Desarrolladores Backend
               </h3>
               <p className='my-4'>
-                Designing with Figma components that can be easily translated to
-                the utility classes of Tailwind CSS is a huge timesaver!"
+                Especializado en la creación de la lógica de servidor y la
+                gestión de bases de datos para garantizar el funcionamiento
+                eficiente de la aplicación. Colabora estrechamente con el equipo
+                frontend para implementar las funcionalidades requeridas.
               </p>
             </blockquote>
             <figcaption className='flex items-center justify-center '>
@@ -68,11 +64,13 @@ export default function About() {
           <figure className='flex flex-col items-center justify-center p-8 text-center bg-white border-b border-gray-200 md:rounded-es-lg md:border-b-0 md:border-e dark:bg-gray-800 dark:border-gray-700'>
             <blockquote className='max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400'>
               <h3 className='text-lg font-semibold text-gray-900 dark:text-white'>
-                Mindblowing workflow
+                Equipo de Desarrollo
               </h3>
               <p className='my-4'>
-                Aesthetically, the well designed components are beautiful and
-                will undoubtedly level up your next application."
+                Nuestro equipo se destaca por su capacidad de colaboración y
+                comunicación efectiva. Con una metodología de trabajo ágil,
+                estamos preparados para enfrentar cualquier desafío y producir
+                resultados excepcionales.
               </p>
             </blockquote>
             <figcaption className='flex items-center justify-center '>
@@ -92,29 +90,30 @@ export default function About() {
           <figure className='flex flex-col items-center justify-center p-8 text-center bg-white border-gray-200 rounded-b-lg md:rounded-se-lg dark:bg-gray-800 dark:border-gray-700'>
             <blockquote className='max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400'>
               <h3 className='text-lg font-semibold text-gray-900 dark:text-white'>
-                Efficient Collaborating
+                Desarrollador DevOps
               </h3>
               <p className='my-4'>
-                You have many examples that can be used to create a fast
-                prototype for your team."
+                Encargado de implementar y gestionar las herramientas y procesos
+                necesarios para facilitar la colaboración entre los equipos de
+                desarrollo y operaciones. Automatiza tareas y garantiza la
+                disponibilidad y confiabilidad de los sistemas.
               </p>
             </blockquote>
             <figcaption className='flex items-center justify-center '>
               <img
                 className='rounded-full w-9 h-9'
-                src='https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/joseph-mcfall.png'
+                src='https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/karen-nelson.png'
                 alt='profile picture'
               />
               <div className='space-y-0.5 font-medium dark:text-white text-left rtl:text-right ms-3'>
-                <div>Joseph McFall</div>
-                <div className='text-sm text-gray-500 dark:text-gray-400'>
-                  CTO at Google
+                <div>Bonnie Green</div>
+                <div className='text-sm text-gray-500 dark:text-gray-400 '>
+                  Developer at Open AI
                 </div>
               </div>
             </figcaption>
           </figure>
-        </div> */}
-
+        </div>
         <div className='grid grid-cols-1 md:grid-cols-3 gap-4 justify-items-center'>
           <Card
             name='Aarón Apaza Barra'

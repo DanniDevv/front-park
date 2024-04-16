@@ -21,6 +21,7 @@ export default {
           '950': '#082e49',
         },
         'card-default': '#f0f9ff', // Cambia este valor al color deseado
+        "card-bg": "#2cd6bb",
       },
     },
   },
