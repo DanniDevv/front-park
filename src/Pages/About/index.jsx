@@ -5,9 +5,9 @@ import '@fontsource-variable/onest'
 export default function About() {
   return (
     <>
-      <div className='mx-auto max-w-screen-lg md:w-full md:max-w-4xl'>
-        <article className='pt-36 pb-14 text-5xl font-bold text-center'>
-          <span className='text-white'>Sobre nuestro Equipo</span>
+      <div className='mx-auto max-w-screen-lg md:w-full md:max-w-4xl py-10'>
+        <article className='pt-36 pb-14 text-6xl font-bold text-center'>
+          <span className='text-card-bg'>NUESTRO EQUIPO</span>
         </article>
         <div>
           <Testimonial
@@ -67,6 +67,7 @@ export default function About() {
             github=''
           />
         </div>
+        
       </div>
     </>
   )

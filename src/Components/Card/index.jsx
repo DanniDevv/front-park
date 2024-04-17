@@ -1,14 +1,14 @@
 export default function Cart({ name, img, linkdlind, github }) {
   return (
     <>
-      <div className='relative flex w-full max-w-[26rem] flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg transform  transition duration-300 hover:scale-105'>
-        <div className='relative mx-4 mt-4 overflow-hidden text-white shadow-lg rounded-xl bg-blue-gray-500 bg-clip-border shadow-blue-gray-500/40'>
+      <div className='relative flex w-full max-w-[26rem] flex-col rounded-xl bg-clip-border text-gray-700 shadow-lg transform  transition duration-300 hover:scale-105 dark:bg-gray-800'>
+        <div className='relative mx-4 mt-4 overflow-hidden text-white shadow-lg rounded-xl bg-blue-gray-500 bg-clip-border shadow-blue-gray-500/40 '>
           <img src={img} alt='ui/ux review check' />
           <div className='absolute inset-0 w-full h-full to-bg-black-10 bg-gradient-to-tr from-transparent via-transparent to-black/60'></div>
         </div>
-        <div className='p-6'>
+        <div className='pt-4'>
           <div className='flex items-center justify-center'>
-            <h5 className='block font-sans text-xl antialiased font-medium leading-snug tracking-normal text-blue-gray-900'>
+            <h5 className='block font-sans text-xl antialiased font-medium leading-snug tracking-normal text-white'>
               {name}
             </h5>
           </div>
@@ -17,7 +17,7 @@ export default function Cart({ name, img, linkdlind, github }) {
           <footer className='flex items-end justify-start mt-4 gap-x-4'>
             <a
               href={github}
-              className='inline-flex items-center justify-center gap-2 px-3 py-2 space-x-2 text-base text-white transition bg-gray-800 border border-gray-600 focus-visible:ring-yellow-500/80 text-md hover:bg-gray-800 hover:border-gray-900 group max-w-fit rounded-xl focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black hover:text-card-bg'
+              className='inline-flex items-center justify-center gap-2 px-3 py-2 space-x-2 text-base text-white transition bg-gray-800 border border-gray-600 focus-visible:ring-yellow-500/80 text-md hover:bg-gray-800 hover:border-card-bg group max-w-fit rounded-xl focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black hover:text-card-bg'
             >
               <svg
                 xmlns='http://www.w3.org/2000/svg'
@@ -38,7 +38,7 @@ export default function Cart({ name, img, linkdlind, github }) {
             </a>
             <a
               href={linkdlind}
-              className='inline-flex items-center justify-center gap-2 px-3 py-2 space-x-2 text-base text-white transition bg-gray-800 border border-gray-600 focus-visible:ring-yellow-500/80 text-md hover:bg-gray-800 hover:border-gray-900 group max-w-fit rounded-xl focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black hover:text-card-bg '
+              className='inline-flex items-center justify-center gap-2 px-3 py-2 space-x-2 text-base text-white transition bg-gray-800 border border-gray-600 focus-visible:ring-yellow-500/80 text-md hover:bg-gray-800 hover:border-card-bg group max-w-fit rounded-xl focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black hover:text-card-bg '
             >
               <svg
                 xmlns='http://www.w3.org/2000/svg'

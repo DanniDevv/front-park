@@ -23,6 +23,7 @@ export default {
         'card-default': '#f0f9ff', // Cambia este valor al color deseado
         "card-bg": "#2cd6bb",
       },
+      
     },
   },
   plugins: [],
